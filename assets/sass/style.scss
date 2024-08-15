@@ -1,0 +1,819 @@
+@import "./variable.scss";
+
+
+body {
+    background-image: url('../image/fontcupcake.gif');
+    overflow-x: $overflow;
+
+    // section1: cupcake
+    .division {
+        display: $display;
+        margin-left: $margin-left;
+        box-shadow: $shadow;
+        width: $width;
+        margin-top: $margin;
+        margin-left: $margin;
+        border-radius: $radius;
+        background-color: $color;
+
+        .div1 {
+            background-color: $color;
+            margin-top: $top;
+            margin-left: $margin;
+            width: $width;
+            height: 150vw;
+            border-top-left-radius: $btl_radius;
+            border-top-right-radius: $btl_radius;
+
+            .cupcake {
+                color: $color;
+                border: 1px solid black;
+                background-color: $clr_black;
+                width: $width1;
+                text-align: $text;
+                border-top-left-radius: 15%;
+                border-top-right-radius: $btl_radius;
+                border-bottom-left-radius: $btl_radius;
+                border-bottom-right-radius: $btl_radius;
+                margin-top: -10%;
+                margin-left: 44%;
+                box-shadow: 8px 8px 5px 80px white;
+                animation: animate 3s linear infinite;
+            }
+
+            .div2 {
+                display: $display;
+                justify-content: $justify;
+                margin-top: $top;
+
+                .div_droite {
+                    width: 30%;
+
+                    ul {
+                        display: $display;
+                        list-style: $none;
+                        margin-right: $top;
+
+                        li {
+                            margin: $other_margin;
+                            margin-right: $margin;
+
+                            a {
+                                text-decoration: $none;
+                                color: $clr_black;
+                            }
+                        }
+
+                    }
+
+                    .maison_marron {
+                        margin-left: 40%;
+                        margin-top: $top;
+                    }
+
+                    .sapin1 {
+                        margin-left: $width;
+                        margin-top: $margin;
+                    }
+                }
+
+                .div_gauche {
+                    width: $width2;
+
+                    ul {
+                        display: $display;
+                        list-style: $none;
+
+                        li {
+                            margin: 3%;
+                            margin-right: 8%;
+
+                            a {
+                                color: $color;
+                                border: 1px solid black;
+                                background-color: $clr_black ;
+                                border-radius: 50%;
+                                width: $margin-left;
+                                height: 1.5vw;
+                                text-decoration: $none;
+                            }
+
+                            .fb {
+                                font-size: 1vw;
+                                text-align: $text;
+                                padding: 3px;
+                            }
+                        }
+                    }
+                }
+
+
+
+            }
+
+            .title1 {
+                margin-top: $top2;
+
+                .title {
+                    font-size: 1.9vw;
+                    font-family: $family;
+                    color: $clr_black;
+                    line-height: 1.558;
+                    text-align: left;
+                    transform: matrix(0.8630039752865, 0, 0, 0.8630039752865, 0, 0);
+                    -webkit-transform: matrix(0.8630039752865, 0, 0, 0.8630039752865, 0, 0);
+                    height: 0.576cm;
+                }
+
+                .chocolat1 {
+
+                    margin-left: 62%;
+                    margin-top: -35%;
+                }
+
+                .citronmaina {
+                    width: $width2;
+                    height: 25vw;
+                    margin-left: 75%;
+                    margin-top: -9%;
+                }
+
+                .maison_marron1 {
+                    margin-left: 68%;
+                    margin-top: -29%;
+
+                }
+
+                .cupcake1 {
+                    width: $width2;
+                    height: 15vw;
+                    margin-left: 43%;
+                    margin-top: -55%;
+                }
+
+                .sapin {
+                    margin-left: 70%;
+                    margin-top: -105%;
+                }
+
+                .subtitle {
+                    font-size: $size;
+                    font-family: $family;
+                    color: rgb(197, 159, 80);
+                    text-transform: $transform;
+                    line-height: 1.047;
+                    text-align: left;
+                    transform: matrix(1.40993632434681, 0, 0, 1.40993632434681, 0, 0);
+                    -webkit-transform: matrix(1.40993632434681, 0, 0, 1.40993632434681, 0, 0);
+                    width: 30%;
+                    height: 0.72cm;
+                    margin-top: -28%;
+                    margin-left: 12%;
+                }
+
+                .text_lorem {
+                    font-size: 1vw;
+                    font-family: "Barlow";
+                    color: rgb(66, 66, 66);
+                    line-height: 1.384;
+                    text-align: $shadow;
+                    transform: matrix(0.84651317471323, 0, 0, 0.84650606067043, 0, 0);
+                    -webkit-transform: matrix(0.84651317471323, 0, 0, 0.84650606067043, 0, 0);
+                    width: 35%;
+                    height: 0.398cm;
+                    margin-top: $margin;
+                    margin-left: 4%;
+
+                }
+
+                .noix1 {
+                    margin-left: $margin;
+                    margin-top: $margin;
+                }
+
+                .cupcake2 {
+                    width: $width2;
+                    height: 15vw;
+                    margin-left: 25%;
+                    margin-top: 1%;
+                }
+
+                .maison_jaune {
+                    margin-left: $margin;
+                    margin-top: $top;
+                }
+
+                .noix2 {
+                    width: 30%;
+                    height: 15vw;
+                    margin-left: 80%;
+                    margin-top: -9%;
+                }
+
+                .maison_jaune1 {
+                    margin-left: 15%;
+                    margin-top: -13%;
+                }
+
+                .noix3 {
+                    margin-left: 55%;
+                    margin-top: -2%;
+                }
+
+                .sapin2 {
+                    margin-left: $left1;
+                    margin-top: -50%;
+                }
+
+                .chocolat2 {
+                    margin-top: -35%;
+                }
+            }
+
+            // section: the favorite dark chocolate
+            .favorite {
+                .courbe_orange{
+                    width:30%;
+                    margin-left:30%;
+                    margin-top:8%;
+                }
+                .text{
+                    font-size:1.7vw;
+                    margin-top:-13%;
+                    margin-left:35%;
+                    color: white;
+                    
+                }
+                .text1{
+                    font-size:1.7vw;
+                    margin-top:-1%;
+                    margin-left:35%;
+                    color: white;
+                }
+
+                .chocolat4 {
+                    margin-left: 65%;
+                    width: 8%;
+                    margin-top: $top1;
+                }
+
+                .sapin_jaune {
+                    margin-top: -13%;
+                    margin-left: 2%;
+                }
+
+                .point_couleur1 {
+                    margin-left: 85%;
+                    margin-top: $top1;
+                }
+
+                .sapin3 {
+                    margin-right: $right;
+                }
+
+                .chocolat3 {
+                    margin-left: 65%;
+                    width: 7%;
+                    margin-top: -65%;
+                }
+
+                .sapin_jaune1 {
+                    margin-top: $top;
+                    margin-left: 15%;
+                }
+
+                .cupcake3 {
+                    margin-left: $width2;
+                    margin-top: -30%;
+                    width: $width2;
+                }
+
+                .cupcake4 {
+                    margin-left: 2%;
+                    margin-top: -20%;
+                    width: $width1;
+                }
+
+                .chocolat6 {
+                    margin-left: 30%;
+                    width: $width2;
+                    margin-top: -20%;
+                }
+
+                .cupcake5 {
+                    margin-right: 3%;
+                    margin-top: -5%;
+                    width: 18%;
+                }
+
+                .point_couleur {
+                    margin-right: 35%;
+                    margin-top: -45%;
+                }
+
+                .girlande1 {
+                    margin-top: -15%;
+
+                }
+
+            }
+
+            //  sign up for our newsletter
+            .newsletter {
+                margin-top: -25%;
+
+                .cupcake_up1 {
+                    width: $width2;
+                    height: 15vw;
+                    /* margin-left: 40%; */
+                    margin-top: $left1;
+                }
+
+                .sign_up {
+                    font-size: 1.8vw;
+                    font-family: $family;
+                    color: rgb(197, 159, 80);
+                    text-align: $text;
+                    margin-top: -23%;
+                }
+
+                .receive {
+                    font-size: $size;
+                    font-family: $family;
+                    color: $clr_black;
+                    line-height: 1.301;
+                    text-align: $text;
+                    margin-top: $top2;
+
+                }
+
+                .receive1 {
+                    font-size: $size;
+                    font-family: $family;
+                    color: $clr_black;
+                    line-height: 1.301;
+                    text-align: $text;
+                    margin-top: -2%;
+
+                }
+
+                .input_sign {
+                    margin-left: 40%;
+
+                    input {
+                        width: 35%;
+                    }
+
+                    .email {
+                        margin-top: 1%;
+                    }
+
+                    .up {
+                        margin-top: 1%;
+                        background-color: #c59f50;
+                        color: $color;
+                    }
+                }
+
+                .cupcake7 {
+                    width: $width2;
+                    height: 15vw;
+                    margin-left: 78%;
+                    margin-top: $margin;
+                }
+
+                .cupcake6 {
+                    width: $width2;
+                    height: 15vw;
+                    /* margin-left:78%; */
+                    margin-top: -20%;
+                }
+
+                .lorem_up {
+                    font-size: 10px;
+                    font-family: "Barlow";
+                    color: rgb(66, 66, 66);
+                    text-align: $text;
+                    margin-left: 28%;
+                    width: 50%;
+                    margin-top: -20%;
+                }
+
+                .call {
+                    font-size: 0.276cm;
+                    font-family: $family;
+                    color: rgb(0, 0, 0);
+                    text-decoration: $underline;
+                    width: $width2;
+                    margin-left: $right;
+                }
+
+                .courbe_up {
+                    box-shadow: $shadow;
+                    width: 100%;
+                    height: 18vw;
+                    border-radius: 30px;
+                    background-color: #c59f50;
+
+                    // margin-top:11%;
+                    // position:absolute;
+                    .perfect {
+                        font-size: $size;
+                        font-family: $family;
+                        color: rgb(255, 255, 255);
+                        text-transform: $transform;
+                        line-height: 1.047;
+                        text-align: $text;
+                        width: 45%;
+                        height: 0.144cm;
+                        margin-left: $left1;
+
+
+                    }
+
+                    .box {
+                        font-size: $size;
+                        font-family: $family;
+                        color: rgb(255, 255, 255);
+                        text-transform: $transform;
+                        line-height: 1.047;
+                        text-align: $text;
+                        width: 45%;
+                        height: 0.364cm;
+
+                    }
+                }
+            }
+
+
+        }
+
+    }
+
+    // sweeten your christmas
+    .noix4 {
+        margin-left: 80%;
+        width: $margin;
+        margin-top:8%;
+    }
+
+    .noix_sweeten4 {
+        margin-left: 78%;
+        width: $margin;
+        margin-top: -2%;
+    }
+
+    .noix6 {
+        margin-left: 85%;
+        width: 2%;
+        margin-top: -2%;
+    }
+
+    .division2 {
+        margin-left: $margin-left;
+        box-shadow: $shadow;
+        width: $width;
+        height: 200vw;
+        margin-top:8%;
+        margin-left: $margin;
+        border-radius: 30px;
+        background-color: $color;
+
+        .pere_noel {
+            width: $width2;
+            margin-left: 40%;
+            margin-top: -12%;
+        }
+
+        .subtitle1 {
+            font-size: $size;
+            font-family: $family;
+            color: rgb(197, 159, 80);
+            text-transform: $transform;
+            margin-top: 1%;
+            margin-left: 38%;
+        }
+
+        .raisin2 {
+            width: $width3;
+            margin-top: 15%;
+            margin-left: $left1;
+        }
+
+        .fraise {
+            width: $width3;
+            margin-right: $top2;
+            margin-top: $margin;
+        }
+
+        .raisin1 {
+            width: $width3;
+            margin-top: $top;
+            margin-left: $top;
+        }
+
+        .cupcake8 {
+            width: 13%;
+            margin-right: 15%;
+            margin-top: $top2;
+        }
+
+        .cupcake9 {
+            width: 13%;
+            margin-left: 55%;
+            margin-top: -18%;
+        }
+
+        .types {
+            margin-left: 45%;
+            font-weight: $gras;
+            line-height: 1.558;
+            font-family: $family;
+        }
+
+        .types1 {
+            margin-left: 44%;
+            font-weight: $gras;
+            line-height: 1.558;
+            font-family: $family;
+            margin-top: -1.5%;
+        }
+
+        .call1 {
+            font-size: 0.276cm;
+            font-family: $family;
+            color: rgb(0, 0, 0);
+            text-decoration: $underline;
+            width: $width2;
+            margin-left: 48%;
+        }
+
+        .cupcake_noir {
+            color: $color;
+            border: 1px solid black;
+            background-color: $clr_black;
+            width: $width1;
+            text-align: $text;
+            border-top-left-radius: 15%;
+            border-top-right-radius: $width2;
+            border-bottom-left-radius: $width2;
+            border-bottom-right-radius: $width2;
+            margin-top: $width3;
+            margin-left: 42%;
+        }
+
+        .noix7 {
+            width: 30%;
+            margin-right: $margin;
+            margin-top: -2%;
+        }
+
+        .fraise1 {
+            width: $width3;
+            margin-left: 45%;
+            margin-top: -45%;
+
+        }
+
+        .feuille2 {
+            margin-top: -15%;
+            margin-right: $width3;
+        }
+
+        .noix_up3 {
+            margin-left: $left1;
+            margin-top: -45%;
+            width: $margin;
+        }
+
+        // special moments this christmas
+        .special {
+            .girlande2 {
+                width: 35%;
+                margin-top: $margin;
+            }
+
+            .special {
+                font-size: $size;
+                font-family: $family;
+                color: rgb(197, 159, 80);
+                text-transform: $transform;
+                line-height: 1.047;
+                text-align: right;
+                left: 7.7724cm;
+                top: 39.9034cm;
+                width: $left1;
+                height: 0.576cm;
+                margin-top: $top1;
+                margin-left: 68%;
+            }
+
+            .Christmas {
+                font-size: 1vw;
+                font-family: $family;
+                color: $clr_black;
+                line-height: 1.558;
+                text-align: right;
+                left: 6.43466666666667cm;
+                top: 40.7585333333333cm;
+                width: 30%;
+                height: 0.66cm;
+                margin-left: 65%;
+                margin-top: $margin;
+            }
+
+            .please {
+                font-size: 0.276cm;
+                font-family: $family;
+                color: rgb(0, 0, 0);
+                text-decoration: $underline;
+                width: 20%;
+                margin-left: 85%;
+                margin-top: $margin;
+            }
+
+            .raisin3 {
+                width: $top;
+            }
+
+            .cupcake10 {
+                width: 15%;
+                margin-top: $top;
+            }
+
+            .cupcake11 {
+                width: 15%;
+                margin-left: $top2;
+                margin-top: -1%;
+            }
+
+            .sucre1 {
+                width: $top;
+                margin-left: 80%;
+                margin-top: -25%;
+            }
+
+            .courbe_jaune {
+                margin-left: 90%;
+                width: $top;
+            }
+
+            .fruit {
+                font-size: 0.276cm;
+                font-family: $family;
+                color: $color;
+                text-transform: $transform;
+                line-height: 1.047;
+                top: 45.4406cm;
+                width: $width2;
+                height: 1.033cm;
+                margin-left: 93%;
+                margin-top: -11%;
+                transform: matrix(0.8002822414232, -0.72056130724216, 0.72056130724217, 0.8002822414232, 0, 0);
+                -webkit-transform: matrix(0.8002822414232, -0.72056130724216, 0.72056130724217, 0.8002822414232, 0, 0);
+            }
+
+            .fruit1 {
+                font-size: 0.276cm;
+                font-family: $family;
+                color: $color;
+                text-transform: $transform;
+                line-height: 1.047;
+                top: 45.4406cm;
+                width: $width2;
+                height: 1.033cm;
+                margin-left: 95%;
+                margin-top: -3%;
+                transform: matrix(0.8002822414232, -0.72056130724216, 0.72056130724217, 0.8002822414232, 0, 0);
+                -webkit-transform: matrix(0.8002822414232, -0.72056130724216, 0.72056130724217, 0.8002822414232, 0, 0);
+            }
+        }
+
+        // make yoour order here 
+        .make {
+            .choose {
+                font-size: $size;
+                font-family: $family;
+                color: $clr_black;
+                line-height: -2;
+                text-align: left;
+                left: 2.40453333333333cm;
+                top: 48.8357333333333cm;
+                width: 24%;
+                height: 0.66cm;
+                margin-left: $width2;
+                font-weight: $gras;
+
+            }
+
+            .make {
+                font-size: $size;
+                font-family: $family;
+                color: rgb(197, 159, 80);
+                text-transform: $transform;
+                line-height: 1.047;
+                text-align: left;
+                left: 2.47226666666667cm;
+                top: 49.7670666666667cm;
+                /* width:27%; */
+                height: 0.254cm;
+                margin-left: $width2;
+                margin-top: $margin;
+                font-weight: $gras;
+
+            }
+
+            .type {
+                width: $width2;
+                margin-top: $top2;
+            }
+
+            .quantity {
+                width: $top;
+                margin-top: $top2;
+            }
+
+            .quantity1 {
+                width: $width2;
+            }
+
+            .order {
+                background-color: #c59f50;
+                width: $top;
+                margin-left: 15%;
+                margin-top: 1%;
+            }
+
+            .citronmaina_here {
+                width: 12%;
+                height: 10vw;
+                margin-left: 85%;
+                margin-top: -9%;
+            }
+
+            .cupcake_here1 {
+                width: 12%;
+                height: 10vw;
+                margin-left: 58%;
+                margin-top: -5%;
+            }
+
+            .cupcake_here5 {
+                /* margin-right:1%; */
+                margin-top: -35%;
+                width: 15%;
+                height: 12vw;
+
+            }
+
+            .noix_here2 {
+                width: 30%;
+                height: 15vw;
+                margin-left: 75%;
+                margin-top: 5%;
+            }
+
+            .lorem_here {
+                font-size: 10px;
+                font-family: "Barlow";
+                color: rgb(66, 66, 66);
+                text-align: $text;
+                margin-left: $top;
+                width: 45%;
+                margin-top: -28%;
+            }
+
+            .call_here {
+                font-size: 0.276cm;
+                font-family: $family;
+                color: $clr_black;
+                text-decoration: $underline;
+                width: 15%;
+                margin-left: 29%;
+            }
+        }
+
+
+        // footer
+        .pied_factory {
+            box-shadow: $shadow;
+            width: 100%;
+            height: 25vw;
+            margin-top: 10%;
+            border-radius: 30px;
+            background-color: #c59f50;
+
+            .pied {
+                margin-top: 100%;
+
+                li {
+                    list-style: $none;
+                    margin: 5%;
+                    color: $color;
+                }
+            }
+        }
+
+    }
+}
+
